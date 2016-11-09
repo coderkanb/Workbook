@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.kb.mallpractice">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -17,6 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".TestActivity">
+        </activity>
+        <activity android:name=".activity.ImageTestActivity">
+        </activity>
+        <activity android:name=".activity.FrescoActivity">
+        </activity>
+        <activity android:name=".activity.HomeActivity">
         </activity>
     </application>
 

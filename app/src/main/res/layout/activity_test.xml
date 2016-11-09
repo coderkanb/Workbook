@@ -53,4 +53,12 @@
         android:ellipsize="end"
         />
 
+    <Button
+        android:id="@+id/test_substring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SubString"
+        />
+
+
 </LinearLayout>

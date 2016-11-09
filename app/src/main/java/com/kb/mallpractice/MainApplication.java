@@ -3,6 +3,8 @@ package com.kb.mallpractice;
 import android.app.Application;
 import android.content.Context;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
+
 /**
  * Created by Administrator on 2016/10/31.
  */
@@ -21,6 +23,7 @@ public class MainApplication extends Application {
         sContext = getApplicationContext();
 
         initUtils();
+        Fresco.initialize(this);
     }
 
     private void initUtils() {

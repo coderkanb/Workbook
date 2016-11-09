@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kb.mallpractice.activity.FrescoActivity;
+import com.kb.mallpractice.activity.HomeActivity;
+import com.kb.mallpractice.activity.ImageTestActivity;
 import com.kb.mallpractice.widget.LoadingDialog;
 
 public class MainActivity extends BaseActivity {
@@ -35,4 +38,19 @@ public class MainActivity extends BaseActivity {
         Intent intent = new Intent(this, TestActivity.class);
         startActivity(intent);
     }
+
+    public void toImageTest(View view){
+        startActivity(ImageTestActivity.class);
+    }
+
+
+    public void toFresco(View view){
+        startActivity(FrescoActivity.class);
+    }
+
+    public void toHome(View view){
+        startActivity(HomeActivity.class);
+    }
+
+
 }

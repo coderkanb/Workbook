@@ -30,4 +30,25 @@
         android:text="测试页"
         android:onClick="toTest"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片测试页"
+        android:onClick="toImageTest"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fresco"
+        android:onClick="toFresco"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:onClick="toHome"
+        />
 </LinearLayout>
