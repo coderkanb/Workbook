@@ -8,6 +8,7 @@ import android.view.View;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
+import com.kb.mallpractice.activity.PicSelectActivity;
 import com.kb.mallpractice.activity.TestActivity;
 import com.kb.mallpractice.widget.LoadingDialog;
 
@@ -51,6 +52,10 @@ public class MainActivity extends BaseActivity {
 
     public void toHome(View view){
         startActivity(HomeActivity.class);
+    }
+
+    public void toPicSelect(View view){
+        startActivity(PicSelectActivity.class);
     }
 
 
