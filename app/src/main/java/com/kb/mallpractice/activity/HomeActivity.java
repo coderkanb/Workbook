@@ -22,7 +22,7 @@ import java.util.List;
 import okhttp3.Call;
 
 /**
- * 用RecyclerView别人写的首页
+ * 用RecyclerView改写别人写的首页，用到的变量名没改
  */
 public class HomeActivity extends AppCompatActivity {
 

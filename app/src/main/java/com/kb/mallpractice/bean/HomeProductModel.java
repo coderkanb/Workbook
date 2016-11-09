@@ -1,21 +1,7 @@
 package com.kb.mallpractice.bean;
 
-/**
- * 首页为您推荐商品中的Model
- *
- * @author kanbin
- * @date 2016/7/18
- */
-
 import java.util.List;
 
-/**
- * 修改
- * @author QuXinhang
- *Creare 2016/7/19 15:00
- *
- *
- */
 public class HomeProductModel {
 
     /**

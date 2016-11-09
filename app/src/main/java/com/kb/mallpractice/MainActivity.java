@@ -8,6 +8,7 @@ import android.view.View;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
+import com.kb.mallpractice.activity.TestActivity;
 import com.kb.mallpractice.widget.LoadingDialog;
 
 public class MainActivity extends BaseActivity {

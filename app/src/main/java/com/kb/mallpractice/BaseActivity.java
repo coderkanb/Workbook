@@ -14,8 +14,6 @@ import android.view.WindowManager;
 /**
  * BaseActivity
  *
- * User: kanbin
- * Date: 2016/10/31
  */
 public abstract class BaseActivity extends AppCompatActivity implements
         View.OnClickListener {

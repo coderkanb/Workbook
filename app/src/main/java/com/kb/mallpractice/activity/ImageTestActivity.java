@@ -15,6 +15,9 @@ import com.kb.mallpractice.R;
 import com.kb.mallpractice.utils.LogUtils;
 import com.kb.mallpractice.utils.ScreenUtils;
 
+/**
+ * 测试Glide的使用  thumbnail()
+ */
 public class ImageTestActivity extends AppCompatActivity implements View.OnClickListener {
     private static final java.lang.String TAG = ImageTestActivity.class.getSimpleName();
 
