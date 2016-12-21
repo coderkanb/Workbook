@@ -25,4 +25,5 @@
     <color name="app_orange">#FF7800</color>
     <color name="app_blue">#0A92DC</color>
 
+    <color name="txt_color">#1d1e1e</color>
 </resources>

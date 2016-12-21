@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.squareup.leakcanary.LeakCanary;
 
 /**
  * Created by Administrator on 2016/10/31.
@@ -24,6 +25,7 @@ public class MainApplication extends Application {
 
         initUtils();
         Fresco.initialize(this);
+        LeakCanary.install(this);
     }
 
     private void initUtils() {

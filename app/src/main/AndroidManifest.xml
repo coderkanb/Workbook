@@ -3,8 +3,8 @@
           package="com.kb.mallpractice">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".MainApplication"
@@ -31,10 +31,14 @@
         <activity android:name=".activity.PicSelectActivity">
         </activity>
 
-        <!--Image Selector Entry-->
+        <!-- Image Selector Entry -->
         <activity
-            android:configChanges="orientation|screenSize"
-            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity" />
+            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".activity.TaskActivity">
+        </activity>
+        <activity android:name=".activity.LeakMemoryActivity">
+        </activity>
     </application>
 
 </manifest>

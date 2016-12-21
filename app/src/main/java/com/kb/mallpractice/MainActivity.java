@@ -8,7 +8,9 @@ import android.view.View;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
+import com.kb.mallpractice.activity.LeakMemoryActivity;
 import com.kb.mallpractice.activity.PicSelectActivity;
+import com.kb.mallpractice.activity.TaskActivity;
 import com.kb.mallpractice.activity.TestActivity;
 import com.kb.mallpractice.widget.LoadingDialog;
 
@@ -59,4 +61,11 @@ public class MainActivity extends BaseActivity {
     }
 
 
+    public void toTask(View view) {
+        startActivity(TaskActivity.class);
+    }
+
+    public void toLeakMemory(View view) {
+        startActivity(LeakMemoryActivity.class);
+    }
 }

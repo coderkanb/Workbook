@@ -21,7 +21,7 @@ import java.util.List;
 import me.nereo.multi_image_selector.MultiImageSelector;
 
 /**
- * 试用图片选择器
+ * 试用图片选择器16.11.9
  * https://github.com/lovetuzitong/MultiImageSelector
  *
  * 项目中用到了三方okhttputils，好像因此报错，引入Picasso包后好了

@@ -58,4 +58,18 @@
         android:text="图片选择"
         android:onClick="toPicSelect"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="任务页"
+        android:onClick="toTask"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存泄漏"
+        android:onClick="toLeakMemory"
+        />
 </LinearLayout>
