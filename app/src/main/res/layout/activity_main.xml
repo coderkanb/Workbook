@@ -72,4 +72,11 @@
         android:text="内存泄漏"
         android:onClick="toLeakMemory"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消失动画"
+        android:onClick="toAnim"
+        />
 </LinearLayout>

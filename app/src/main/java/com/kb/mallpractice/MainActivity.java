@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kb.mallpractice.activity.AnimActivity;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
@@ -67,5 +68,9 @@ public class MainActivity extends BaseActivity {
 
     public void toLeakMemory(View view) {
         startActivity(LeakMemoryActivity.class);
+    }
+
+    public void toAnim(View view) {
+        startActivity(AnimActivity.class);
     }
 }

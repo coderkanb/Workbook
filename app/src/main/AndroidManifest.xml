@@ -39,6 +39,8 @@
         </activity>
         <activity android:name=".activity.LeakMemoryActivity">
         </activity>
+        <activity android:name=".activity.AnimActivity">
+        </activity>
     </application>
 
 </manifest>
