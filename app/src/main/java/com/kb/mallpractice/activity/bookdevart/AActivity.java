@@ -9,6 +9,7 @@ import com.kb.mallpractice.R;
 import com.kb.mallpractice.utils.LogUtils;
 
 public class AActivity extends BaseActivity {
+//    public static final String TAG = AActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +35,17 @@ public class AActivity extends BaseActivity {
     public void openB(View view) {
         startActivity(BActivity.class);
         LogUtils.d(TAG, "[test log search]BActivity  //控制台搜索关键词XXX，只要log中包含XXX就显示");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        LogUtils.d(TAG, "onStart");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        LogUtils.d(TAG, "onStop");
     }
 }
