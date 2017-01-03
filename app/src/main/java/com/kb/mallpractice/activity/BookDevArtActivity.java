@@ -8,6 +8,7 @@ import android.view.View;
 import com.kb.mallpractice.BaseActivity;
 import com.kb.mallpractice.R;
 import com.kb.mallpractice.activity.bookdevart.ActivityLifeActivity;
+import com.kb.mallpractice.activity.bookdevart.LaunchModeActivity;
 
 /**
  * 《Android开发艺术探索》
@@ -39,5 +40,9 @@ public class BookDevArtActivity extends BaseActivity {
 
     public void onScreenChange(View view) {
         startActivity(ActivityLifeActivity.class);
+    }
+
+    public void onLaunchMode(View view) {
+        startActivity(LaunchModeActivity.class);
     }
 }

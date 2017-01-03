@@ -23,6 +23,13 @@
                 android:text="1异常启动旋转屏幕"
                 android:onClick="onScreenChange"
                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.2启动模式"
+                android:onClick="onLaunchMode"
+                />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
