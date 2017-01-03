@@ -41,6 +41,11 @@
         </activity>
         <activity android:name=".activity.AnimActivity">
         </activity>
+        <activity android:name=".activity.BookDevArtActivity">
+        </activity>
+        <activity android:name=".activity.bookdevart.ActivityLifeActivity"
+            >
+        </activity>
     </application>
 
 </manifest>

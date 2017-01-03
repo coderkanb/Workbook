@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.kb.mallpractice.activity.AnimActivity;
+import com.kb.mallpractice.activity.BookDevArtActivity;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
@@ -72,5 +73,9 @@ public class MainActivity extends BaseActivity {
 
     public void toAnim(View view) {
         startActivity(AnimActivity.class);
+    }
+
+    public void toBook2(View view) {
+        startActivity(BookDevArtActivity.class);
     }
 }
