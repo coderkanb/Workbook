@@ -1,12 +1,13 @@
 package com.kb.mallpractice;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.kb.mallpractice.activity.AnimActivity;
-import com.kb.mallpractice.activity.BookDevArtActivity;
+import com.kb.mallpractice.activity.baseframe.FrameworkActivity;
+import com.kb.mallpractice.activity.bookdevart.BookDevArtActivity;
 import com.kb.mallpractice.activity.FrescoActivity;
 import com.kb.mallpractice.activity.HomeActivity;
 import com.kb.mallpractice.activity.ImageTestActivity;
@@ -14,20 +15,31 @@ import com.kb.mallpractice.activity.LeakMemoryActivity;
 import com.kb.mallpractice.activity.PicSelectActivity;
 import com.kb.mallpractice.activity.TaskActivity;
 import com.kb.mallpractice.activity.TestActivity;
-import com.kb.mallpractice.widget.LoadingDialog;
 
 public class MainActivity extends BaseActivity {
+
+    private Button mBtnBaseFramework;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        initView();
+        setupView();
+
+    }
+
+    private void initView() {
+        mBtnBaseFramework = (Button) findViewById(R.id.btn_base_frame);
+    }
+
+    private void setupView() {
+        mBtnBaseFramework.setOnClickListener(this);
     }
 
     @Override
     public void initParams(Bundle params) {
-
     }
 
     @Override
@@ -37,7 +49,11 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void widgetClick(View v) {
-
+        switch (v.getId()) {
+            case R.id.btn_base_frame: // 基础框架页
+                startActivity(FrameworkActivity.class);
+                break;
+        }
     }
 
     public void toTest(View view) {

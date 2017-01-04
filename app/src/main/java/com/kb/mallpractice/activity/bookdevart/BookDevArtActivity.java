@@ -1,4 +1,4 @@
-package com.kb.mallpractice.activity;
+package com.kb.mallpractice.activity.bookdevart;
 
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
