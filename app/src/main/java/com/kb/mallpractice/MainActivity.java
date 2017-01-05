@@ -15,6 +15,7 @@ import com.kb.mallpractice.activity.LeakMemoryActivity;
 import com.kb.mallpractice.activity.PicSelectActivity;
 import com.kb.mallpractice.activity.TaskActivity;
 import com.kb.mallpractice.activity.TestActivity;
+import com.kb.mallpractice.activity.mall.MallActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -93,5 +94,9 @@ public class MainActivity extends BaseActivity {
 
     public void toBook2(View view) {
         startActivity(BookDevArtActivity.class);
+    }
+
+    public void toMall(View view) {
+        startActivity(MallActivity.class);
     }
 }

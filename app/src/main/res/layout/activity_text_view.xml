@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kb.mallpractice.activity.mall.TextViewActivity">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:maxLines="8"
+        android:background="#FFF"
+        android:textColor="#000"
+        android:scrollbars="vertical"
+        android:text="
+一、订单详情页，确认订单页添加提示。
+     1.运费后面添加文字（提现时运费不包括在内）。
+二、邀请好友添加VIP标识
+     1.邀请好友能看到VIP会员和普通会员
+     2.VIP在上方显示，普通会员在VIP下方显示。
+     3.能看到自己的邀请人有几个成为了VIP
+三、新增抢购
+     1.增加了抢购功能
+四、个人信息添加头像
+     1.个人信息页可以上传自己设定的头像。
+五、页面布局修改
+     1.个人中心的布局进行了改变。   	提现显示在个人中心页。   	添加了供货电话。
+六、新增UU详情
+     1.UU页面添加了UU详情。
+七、新增积分详情
+     1.积分页面添加了积分详情。
+八、优化确认订单页收货地址
+     1.收货地址进行了修改，更加便捷完善。
+九、优化确认订单页
+     1.去掉了一些文字内容。
+十、优化提明：由于联通、电信等用户网络信号问题部分用户提现功能可能出现加载失败的情况导致提现不成功，我们正在与相关运营商协商解决，由此给您带来的不便敬请谅解。*"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarFadeDuration="600"
+        />
+</RelativeLayout>
