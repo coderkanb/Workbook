@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.kb.mallpractice">
+          package="com.kb.workbook">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
-        android:name=".MainApplication"
+        android:name="com.kb.workbook.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.kb.workbook.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TestActivity">
+        <activity android:name="com.kb.workbook.activity.TestActivity">
         </activity>
-        <activity android:name=".activity.ImageTestActivity">
+        <activity android:name="com.kb.workbook.activity.ImageTestActivity">
         </activity>
-        <activity android:name=".activity.FrescoActivity">
+        <activity android:name="com.kb.workbook.activity.FrescoActivity">
         </activity>
-        <activity android:name=".activity.HomeActivity">
+        <activity android:name="com.kb.workbook.activity.HomeActivity">
         </activity>
-        <activity android:name=".activity.PicSelectActivity">
+        <activity android:name="com.kb.workbook.activity.PicSelectActivity">
         </activity>
 
         <!-- Image Selector Entry -->
         <activity
             android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
             android:configChanges="orientation|screenSize"/>
-        <activity android:name=".activity.TaskActivity">
+        <activity android:name="com.kb.workbook.activity.TaskActivity">
         </activity>
-        <activity android:name=".activity.LeakMemoryActivity">
+        <activity android:name="com.kb.workbook.activity.LeakMemoryActivity">
         </activity>
-        <activity android:name=".activity.AnimActivity">
+        <activity android:name="com.kb.workbook.activity.AnimActivity">
         </activity>
-        <activity android:name=".activity.bookdevart.BookDevArtActivity">
+        <activity android:name="com.kb.workbook.activity.bookdevart.BookDevArtActivity">
         </activity>
-        <activity android:name=".activity.bookdevart.ActivityLifeActivity">
+        <activity android:name="com.kb.workbook.activity.bookdevart.ActivityLifeActivity">
         </activity>
-        <activity android:name=".activity.bookdevart.LaunchModeActivity">
+        <activity android:name="com.kb.workbook.activity.bookdevart.LaunchModeActivity">
         </activity>
-        <activity android:name=".activity.bookdevart.AActivity">
+        <activity android:name="com.kb.workbook.activity.bookdevart.AActivity">
         </activity>
         <activity
-            android:name=".activity.bookdevart.BActivity"
+            android:name="com.kb.workbook.activity.bookdevart.BActivity"
             android:launchMode="singleTop">
         </activity>
-        <activity android:name=".activity.baseframe.ToastActivity">
+        <activity android:name="com.kb.workbook.activity.baseframe.ToastActivity">
         </activity>
-        <activity android:name=".activity.baseframe.FrameworkActivity">
+        <activity android:name="com.kb.workbook.activity.baseframe.FrameworkActivity">
         </activity>
-        <activity android:name=".activity.mall.MallActivity">
+        <activity android:name="com.kb.workbook.activity.mall.MallActivity">
         </activity>
-        <activity android:name=".activity.mall.TextViewActivity">
+        <activity android:name="com.kb.workbook.activity.mall.TextViewActivity">
+        </activity>
+        <activity android:name="com.kb.workbook.activity.mall.JavaTestActivity">
+        </activity>
+        <activity android:name="com.kb.workbook.activity.interview.InterviewContentActivity">
+        </activity>
+        <activity android:name="com.kb.workbook.activity.interview.Chapter2Activity">
         </activity>
     </application>
 

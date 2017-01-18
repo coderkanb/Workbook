@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.kb.mallpractice.MainActivity">
+    tools:context="com.kb.workbook.MainActivity">
 
     <RelativeLayout
         android:layout_width="50dp"
@@ -43,6 +43,13 @@
         android:layout_height="wrap_content"
         android:text="mall"
         android:onClick="toMall"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宝典"
+        android:onClick="toInterview"
         />
 
     <Button

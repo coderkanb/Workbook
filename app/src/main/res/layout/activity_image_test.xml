@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.kb.mallpractice.activity.ImageTestActivity">
+    tools:context="com.kb.workbook.activity.ImageTestActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

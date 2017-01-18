@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.kb.mallpractice.activity.baseframe.FrameworkActivity">
+    tools:context="com.kb.workbook.activity.baseframe.FrameworkActivity">
 
     <Button
         android:layout_width="wrap_content"

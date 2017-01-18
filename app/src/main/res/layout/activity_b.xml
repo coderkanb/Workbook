@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.kb.mallpractice.activity.bookdevart.BActivity">
+    tools:context="com.kb.workbook.activity.bookdevart.BActivity">
 
     <TextView
         android:layout_width="wrap_content"
