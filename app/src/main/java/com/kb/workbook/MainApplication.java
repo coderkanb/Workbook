@@ -15,7 +15,7 @@ public class MainApplication extends Application {
     public static boolean isDebug;
     public static Context sContext;
     private static MainApplication instance;
-    private Object thing;
+    private Object data;
 
     @Override
     public void onCreate() {
@@ -23,13 +23,9 @@ public class MainApplication extends Application {
         APP_NAME = getResources().getString(R.string.app_name);
         sContext = getApplicationContext();
 
-        initUtils();
+        isDebug = true;
         Fresco.initialize(this);
         LeakCanary.install(this);
-    }
-
-    private void initUtils() {
-        isDebug = true;
     }
 
     public static Context getContext() {
@@ -40,11 +36,11 @@ public class MainApplication extends Application {
         return instance;
     }
 
-    public Object getThing() {
-        return thing;
+    public Object getData() {
+        return data;
     }
 
-    public void setThing(Object thing) {
-        this.thing = thing;
+    public void setData(Object data) {
+        this.data = data;
     }
 }
