@@ -13,4 +13,12 @@
         android:text="第2章"
         android:onClick="toChapter2"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第13章"
+        android:onClick="toChapter13"
+        />
+
 </LinearLayout>

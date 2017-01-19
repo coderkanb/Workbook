@@ -35,4 +35,8 @@ public class InterviewContentActivity extends BaseActivity {
     public void toChapter2(View view) {
         startActivity(Chapter2Activity.class);
     }
+
+    public void toChapter13(View view) {
+        startActivity(Chapter13Activity.class);
+    }
 }
