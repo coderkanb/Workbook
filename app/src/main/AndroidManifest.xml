@@ -69,6 +69,10 @@
         </activity>
         <activity android:name=".activity.interview.Chapter13Activity">
         </activity>
+        <activity android:name=".activity.idea.RefreshActivity">
+        </activity>
+        <activity android:name=".activity.idea.IdeaActivity">
+        </activity>
     </application>
 
 </manifest>

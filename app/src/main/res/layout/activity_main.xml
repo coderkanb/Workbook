@@ -11,100 +11,122 @@
     android:orientation="vertical"
     tools:context="com.kb.workbook.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="#00f"
-        >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="#f00"
-            />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="book2"
-        android:onClick="toBook2"
-        />
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00f"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="#f00"
+                    />
 
-    <Button
-        android:id="@+id/btn_base_frame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="基础框架"
-        />
+            </RelativeLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="mall"
-        android:onClick="toMall"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="book2"
+                android:onClick="toBook2"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="宝典"
-        android:onClick="toInterview"
-        />
+            <Button
+                android:id="@+id/btn_base_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基础框架"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="测试页"
-        android:onClick="toTest"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mall"
+                android:onClick="toMall"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="图片测试页"
-        android:onClick="toImageTest"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="宝典"
+                android:onClick="toInterview"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fresco"
-        android:onClick="toFresco"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idea"
+                android:onClick="toIdea"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="首页"
-        android:onClick="toHome"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试页"
+                android:onClick="toTest"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="图片选择"
-        android:onClick="toPicSelect"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片测试页"
+                android:onClick="toImageTest"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="任务页"
-        android:onClick="toTask"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fresco"
+                android:onClick="toFresco"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="内存泄漏"
-        android:onClick="toLeakMemory"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:onClick="toHome"
+                />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="消失动画"
-        android:onClick="toAnim"
-        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片选择"
+                android:onClick="toPicSelect"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务页"
+                android:onClick="toTask"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内存泄漏"
+                android:onClick="toLeakMemory"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消失动画"
+                android:onClick="toAnim"
+                />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

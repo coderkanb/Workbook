@@ -6,5 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.kb.workbook.activity.mall.JavaTestActivity">
 
-
+    <TextView
+        android:id="@+id/java_test_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 </RelativeLayout>

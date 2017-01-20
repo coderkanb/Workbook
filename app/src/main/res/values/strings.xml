@@ -5,6 +5,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="interview_chapter13_str">" I'll go shopping. 存在单引号，可以使用双引号将整个带单引号的字符串资源括起来，也可以用转移符（反斜线）。"</string>
-    
+
     <string name="interview_chapter13_mark"><i>《Android开发艺术探索》</i>\n<u>我有一个梦想</u>\n<b>笔记本</b>\n普通文字：以上是标签的使用</string>
 </resources>

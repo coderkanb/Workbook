@@ -15,6 +15,7 @@ import com.kb.workbook.activity.LeakMemoryActivity;
 import com.kb.workbook.activity.PicSelectActivity;
 import com.kb.workbook.activity.TaskActivity;
 import com.kb.workbook.activity.TestActivity;
+import com.kb.workbook.activity.idea.IdeaActivity;
 import com.kb.workbook.activity.interview.InterviewContentActivity;
 import com.kb.workbook.activity.mall.MallActivity;
 
@@ -103,5 +104,9 @@ public class MainActivity extends BaseActivity {
 
     public void toInterview(View view) {
         startActivity(InterviewContentActivity.class);
+    }
+
+    public void toIdea(View view) {
+        startActivity(IdeaActivity.class);
     }
 }
