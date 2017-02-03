@@ -41,4 +41,8 @@ public class BookDevArtActivity extends BaseActivity {
     public void onLaunchMode(View view) {
         startActivity(LaunchModeActivity.class);
     }
+
+    public void toEvent(View view) {
+        startActivity(EventActivity.class);
+    }
 }

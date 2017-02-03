@@ -73,6 +73,16 @@
         </activity>
         <activity android:name=".activity.idea.IdeaActivity">
         </activity>
+        <activity android:name=".activity.bookdevart.EventActivity">
+        </activity>
+        <activity android:name=".activity.mall.TipHideActivity">
+        </activity>
+        <activity android:name=".activity.mall.MagicIndicatorActivity">
+        </activity>
+        <activity android:name=".activity.mall.TabLayoutActivity">
+        </activity>
+        <activity android:name=".activity.mall.FenLeiActivity">
+        </activity>
     </application>
 
 </manifest>

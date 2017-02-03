@@ -20,4 +20,33 @@
         android:text="JavaTest"
         android:onClick="toJavaTest"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示隐藏"
+        android:onClick="toHide"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导航栏"
+        android:onClick="toTabLayout"
+        android:padding="10dp"
+        android:background="@android:color/holo_red_light"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分类"
+        android:onClick="toFenLei"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+        />
+
+
 </LinearLayout>

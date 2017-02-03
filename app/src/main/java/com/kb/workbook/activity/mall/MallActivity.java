@@ -36,4 +36,16 @@ public class MallActivity extends BaseActivity {
     public void toJavaTest(View view) {
         startActivity(JavaTestActivity.class);
     }
+
+    public void toHide(View view) {
+        startActivity(TipHideActivity.class);
+    }
+
+    public void toTabLayout(View view) {
+        startActivity(TabLayoutActivity.class);
+    }
+
+    public void toFenLei(View view) {
+        startActivity(FenLeiActivity.class);
+    }
 }

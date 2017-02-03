@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kb.workbook.activity.bookdevart.EventActivity">
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <RelativeLayout
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:onClick="calc"
+            android:padding="1px"
+            android:layout_margin="2px"
+            >
+
+            <TextView
+                android:id="@+id/event_tv"
+                android:layout_width="100px"
+                android:layout_height="50px"
+                android:background="@android:color/holo_green_dark"
+                android:padding="3px"
+                android:layout_margin="4px"
+                />
+        </RelativeLayout>
+    <!--</ScrollView>-->
+</RelativeLayout>

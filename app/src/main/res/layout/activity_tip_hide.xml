@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kb.workbook.activity.mall.TipHideActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_orange_light"
+        >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tip_hide_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="这是一个提示，这是一个提示"
+        android:background="@android:color/holo_blue_dark"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击隐藏"
+        android:onClick="hideTip"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击显示"
+        android:onClick="showTip"
+        />
+
+
+</LinearLayout>
