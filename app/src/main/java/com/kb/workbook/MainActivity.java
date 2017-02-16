@@ -18,6 +18,7 @@ import com.kb.workbook.activity.TestActivity;
 import com.kb.workbook.activity.idea.IdeaActivity;
 import com.kb.workbook.activity.interview.InterviewContentActivity;
 import com.kb.workbook.activity.mall.MallActivity;
+import com.kb.workbook.activity.test.GsonActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -108,5 +109,9 @@ public class MainActivity extends BaseActivity {
 
     public void toIdea(View view) {
         startActivity(IdeaActivity.class);
+    }
+
+    public void toTestPart(View view) {
+        startActivity(GsonActivity.class);
     }
 }

@@ -71,6 +71,15 @@
                 android:padding="10dp"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试模块"
+                android:onClick="toTestPart"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp"
+                />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

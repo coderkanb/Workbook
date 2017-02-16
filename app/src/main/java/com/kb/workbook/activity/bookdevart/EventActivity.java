@@ -28,13 +28,13 @@ public class EventActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event);
 
-//        ScrollView scrollView = (ScrollView) findViewById(R.id.scrollview);
+        ScrollView scrollView = (ScrollView) findViewById(R.id.scrollview);
 //        scrollView.smoothScrollTo(0, 0);
 
         Scroller scroller = new Scroller(this);
 
         mTextView = (TextView) findViewById(R.id.event_tv);
-
+        scrollView.addView(new TextView(this));
     }
 
 
