@@ -85,6 +85,8 @@
         </activity>
         <activity android:name=".activity.test.GsonActivity">
         </activity>
+        <activity android:name=".activity.bookdevart.Event2Activity">
+        </activity>
     </application>
 
 </manifest>

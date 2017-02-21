@@ -33,11 +33,23 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:text="第三章 View的事件体系"
                 android:background="@android:color/holo_green_dark"
+                android:gravity="center"
                 android:onClick="toEvent"
                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="View的事件传递"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="center"
+                android:onClick="toEvent2"
+                />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
