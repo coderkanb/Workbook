@@ -11,7 +11,6 @@ import com.kb.workbook.activity.bookdevart.BookDevArtActivity;
 import com.kb.workbook.activity.FrescoActivity;
 import com.kb.workbook.activity.HomeActivity;
 import com.kb.workbook.activity.ImageTestActivity;
-import com.kb.workbook.test.LeakMemoryActivity;
 import com.kb.workbook.activity.PicSelectActivity;
 import com.kb.workbook.activity.TaskActivity;
 import com.kb.workbook.activity.TestActivity;

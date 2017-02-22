@@ -1,12 +1,10 @@
 package com.kb.workbook.activity.test;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.kb.workbook.BaseActivity;
 import com.kb.workbook.R;
-import com.kb.workbook.test.LeakMemoryActivity;
 
 public class TestListActivity extends BaseActivity {
 
