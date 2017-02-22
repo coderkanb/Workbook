@@ -11,14 +11,14 @@ import com.kb.workbook.activity.bookdevart.BookDevArtActivity;
 import com.kb.workbook.activity.FrescoActivity;
 import com.kb.workbook.activity.HomeActivity;
 import com.kb.workbook.activity.ImageTestActivity;
-import com.kb.workbook.activity.LeakMemoryActivity;
+import com.kb.workbook.test.LeakMemoryActivity;
 import com.kb.workbook.activity.PicSelectActivity;
 import com.kb.workbook.activity.TaskActivity;
 import com.kb.workbook.activity.TestActivity;
 import com.kb.workbook.activity.idea.IdeaActivity;
 import com.kb.workbook.activity.interview.InterviewContentActivity;
 import com.kb.workbook.activity.mall.MallActivity;
-import com.kb.workbook.activity.test.GsonActivity;
+import com.kb.workbook.activity.test.TestListActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -87,10 +87,6 @@ public class MainActivity extends BaseActivity {
         startActivity(TaskActivity.class);
     }
 
-    public void toLeakMemory(View view) {
-        startActivity(LeakMemoryActivity.class);
-    }
-
     public void toAnim(View view) {
         startActivity(AnimActivity.class);
     }
@@ -112,6 +108,6 @@ public class MainActivity extends BaseActivity {
     }
 
     public void toTestPart(View view) {
-        startActivity(GsonActivity.class);
+        startActivity(TestListActivity.class);
     }
 }

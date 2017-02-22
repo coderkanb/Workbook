@@ -37,7 +37,7 @@
             android:configChanges="orientation|screenSize"/>
         <activity android:name=".activity.TaskActivity">
         </activity>
-        <activity android:name=".activity.LeakMemoryActivity">
+        <activity android:name=".test.LeakMemoryActivity">
         </activity>
         <activity android:name=".activity.AnimActivity">
         </activity>
@@ -86,6 +86,10 @@
         <activity android:name=".activity.test.GsonActivity">
         </activity>
         <activity android:name=".activity.bookdevart.Event2Activity">
+        </activity>
+        <activity android:name=".activity.test.TestListActivity">
+        </activity>
+        <activity android:name=".activity.test.LeakActivity">
         </activity>
     </application>
 

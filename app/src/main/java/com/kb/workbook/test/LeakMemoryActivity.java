@@ -1,4 +1,4 @@
-package com.kb.workbook.activity;
+package com.kb.workbook.test;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +18,7 @@ public class LeakMemoryActivity extends AppCompatActivity {
     }
 
     public void toClose(View view) {
+//        a = null;
         finish();
     }
 
