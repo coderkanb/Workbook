@@ -41,6 +41,16 @@ public class Event2Activity extends AppCompatActivity {
             }
         });
 
+        mTv.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                boolean ret = false;
+                if (ret){
+                    ToastUtils.showShort("view onTouchListener()-onTouch()");
+                }
+                return ret;
+            }
+        });
     }
 
 

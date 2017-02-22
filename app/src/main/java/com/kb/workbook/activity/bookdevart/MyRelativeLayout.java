@@ -42,14 +42,14 @@ public class MyRelativeLayout extends RelativeLayout {
     public boolean onTouchEvent(MotionEvent event) {
         boolean ret = true;
         if (ret){
-            ToastUtils.showShort("view group 处理事件");
+            ToastUtils.showShort("view group 处理事件 " + event.getAction());
 
         }else {
             ToastUtils.showShort("view group 未处理事件");
 
         }
-        return ret;
-//        return super.onTouchEvent(event);
+//        return ret;
+        return super.onTouchEvent(event);
     }
 
     @Override
