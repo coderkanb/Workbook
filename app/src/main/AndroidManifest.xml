@@ -91,6 +91,8 @@
         </activity>
         <activity android:name=".activity.test.LeakActivity">
         </activity>
+        <activity android:name=".activity.mall.HomeRedPointActivity">
+        </activity>
     </application>
 
 </manifest>
