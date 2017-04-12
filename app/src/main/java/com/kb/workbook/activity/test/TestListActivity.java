@@ -41,4 +41,7 @@ public class TestListActivity extends BaseActivity {
         startActivity(LeakActivity.class);
     }
 
+    public void toast2(View view) {
+        startActivity(Toast2Activity.class);
+    }
 }

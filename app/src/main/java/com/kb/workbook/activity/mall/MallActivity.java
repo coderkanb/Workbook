@@ -48,4 +48,8 @@ public class MallActivity extends BaseActivity {
     public void toFenLei(View view) {
         startActivity(FenLeiActivity.class);
     }
+
+    public void toLoading(View view) {
+        startActivity(LoadingActivity.class);
+    }
 }

@@ -91,6 +91,10 @@
         </activity>
         <activity android:name=".activity.test.LeakActivity">
         </activity>
+        <activity android:name=".activity.test.Toast2Activity">
+        </activity>
+        <activity android:name=".activity.mall.LoadingActivity">
+        </activity>
     </application>
 
 </manifest>

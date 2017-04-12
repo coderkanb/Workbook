@@ -48,5 +48,14 @@
         android:background="@android:color/holo_green_light"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载中动画"
+        android:onClick="toLoading"
+        android:padding="10dp"
+        android:background="@android:color/holo_purple"
+        />
+
 
 </LinearLayout>

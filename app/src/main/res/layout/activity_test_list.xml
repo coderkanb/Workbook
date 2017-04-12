@@ -45,5 +45,15 @@
         android:background="@android:color/holo_green_light"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        android:text="Toast"
+        android:onClick="toToast2"
+        android:background="@android:color/holo_orange_light"
+        />
 
 </LinearLayout>
