@@ -95,6 +95,8 @@
         </activity>
         <activity android:name=".activity.mall.LoadingActivity">
         </activity>
+        <activity android:name=".activity.mall.HomeRedPointActivity">
+        </activity>
     </application>
 
 </manifest>

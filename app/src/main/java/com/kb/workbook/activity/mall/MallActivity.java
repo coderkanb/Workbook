@@ -52,4 +52,8 @@ public class MallActivity extends BaseActivity {
     public void toLoading(View view) {
         startActivity(LoadingActivity.class);
     }
+
+    public void toRedPoint(View view) {
+        startActivity(HomeRedPointActivity.class);
+    }
 }
