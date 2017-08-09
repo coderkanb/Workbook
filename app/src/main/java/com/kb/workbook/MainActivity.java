@@ -17,6 +17,7 @@ import com.kb.workbook.activity.TestActivity;
 import com.kb.workbook.activity.idea.IdeaActivity;
 import com.kb.workbook.activity.interview.InterviewContentActivity;
 import com.kb.workbook.activity.mall.MallActivity;
+import com.kb.workbook.activity.note.NoteContentActivity;
 import com.kb.workbook.activity.test.TestListActivity;
 
 public class MainActivity extends BaseActivity {
@@ -108,5 +109,9 @@ public class MainActivity extends BaseActivity {
 
     public void toTestPart(View view) {
         startActivity(TestListActivity.class);
+    }
+
+    public void toNotePage(View view) {
+        startActivity(NoteContentActivity.class);
     }
 }

@@ -9,5 +9,3 @@ demo演示的是ViewPagerIndicator的使用
 2. viewpager/ pagerAdapter/ indicator  
 2.1 viewpager.setAdapter(pagerAdapter) -- 像ListView一样使用  
 2.2 indicator.setViewPager(viewPager)
-
- 
