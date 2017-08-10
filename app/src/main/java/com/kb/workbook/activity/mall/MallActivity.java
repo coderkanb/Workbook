@@ -56,4 +56,8 @@ public class MallActivity extends BaseActivity {
     public void toRedPoint(View view) {
         startActivity(HomeRedPointActivity.class);
     }
+
+    public void toWebView(View view) {
+        startActivity(WebViewActivity.class);
+    }
 }

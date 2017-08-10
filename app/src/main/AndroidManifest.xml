@@ -63,7 +63,8 @@
         <activity android:name=".activity.mall.LoadingActivity" />
         <activity android:name=".activity.mall.HomeRedPointActivity" />
         <activity android:name=".activity.note.NoteContentActivity" />
-        <activity android:name=".activity.note.ViewPagerActivity"></activity>
+        <activity android:name=".activity.note.ViewPagerActivity" />
+        <activity android:name=".activity.mall.WebViewActivity"></activity>
     </application>
 
 </manifest>
