@@ -60,4 +60,8 @@ public class MallActivity extends BaseActivity {
     public void toWebView(View view) {
         startActivity(WebViewActivity.class);
     }
+
+    public void toContacts(View view) {
+        startActivity(ContactsActivity.class);
+    }
 }

@@ -37,7 +37,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="book2"
+                android:text="《开发艺术探索》"
                 android:onClick="toBook2"
                 />
 

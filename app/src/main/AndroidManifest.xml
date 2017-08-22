@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kb.workbook">
+          package="com.kb.workbook">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".MainApplication"
@@ -15,56 +15,60 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TestActivity" />
-        <activity android:name=".activity.ImageTestActivity" />
-        <activity android:name=".activity.FrescoActivity" />
-        <activity android:name=".activity.HomeActivity" />
-        <activity android:name=".activity.PicSelectActivity" />
+        <activity android:name=".activity.TestActivity"/>
+        <activity android:name=".activity.ImageTestActivity"/>
+        <activity android:name=".activity.FrescoActivity"/>
+        <activity android:name=".activity.HomeActivity"/>
+        <activity android:name=".activity.PicSelectActivity"/>
 
         <!-- Image Selector Entry -->
         <activity
             android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
-            android:configChanges="orientation|screenSize" />
-        <activity android:name=".activity.TaskActivity" />
-        <activity android:name=".activity.test.LeakMemoryActivity" />
-        <activity android:name=".activity.AnimActivity" />
-        <activity android:name=".activity.bookdevart.BookDevArtActivity" />
-        <activity android:name=".activity.bookdevart.ActivityLifeActivity" />
-        <activity android:name=".activity.bookdevart.LaunchModeActivity" />
-        <activity android:name=".activity.bookdevart.AActivity" />
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".activity.TaskActivity"/>
+        <activity android:name=".activity.test.LeakMemoryActivity"/>
+        <activity android:name=".activity.AnimActivity"/>
+        <activity android:name=".activity.bookdevart.BookDevArtActivity"/>
+        <activity android:name=".activity.bookdevart.ActivityLifeActivity"/>
+        <activity android:name=".activity.bookdevart.LaunchModeActivity"/>
+        <activity android:name=".activity.bookdevart.AActivity"/>
         <activity
             android:name=".activity.bookdevart.BActivity"
-            android:launchMode="singleTop" />
-        <activity android:name=".activity.baseframe.ToastActivity" />
-        <activity android:name=".activity.baseframe.FrameworkActivity" />
-        <activity android:name=".activity.mall.MallActivity" />
-        <activity android:name=".activity.mall.TextViewActivity" />
-        <activity android:name=".activity.mall.JavaTestActivity" />
-        <activity android:name=".activity.interview.InterviewContentActivity" />
-        <activity android:name=".activity.interview.Chapter2Activity" />
-        <activity android:name=".activity.interview.Chapter13Activity" />
-        <activity android:name=".activity.idea.RefreshActivity" />
-        <activity android:name=".activity.idea.IdeaActivity" />
-        <activity android:name=".activity.bookdevart.EventActivity" />
-        <activity android:name=".activity.mall.TipHideActivity" />
-        <activity android:name=".activity.mall.MagicIndicatorActivity" />
-        <activity android:name=".activity.mall.TabLayoutActivity" />
-        <activity android:name=".activity.mall.FenLeiActivity" />
-        <activity android:name=".activity.test.GsonActivity" />
-        <activity android:name=".activity.bookdevart.Event2Activity" />
-        <activity android:name=".activity.test.TestListActivity" />
-        <activity android:name=".activity.test.LeakActivity" />
-        <activity android:name=".activity.test.Toast2Activity" />
-        <activity android:name=".activity.mall.LoadingActivity" />
-        <activity android:name=".activity.mall.HomeRedPointActivity" />
-        <activity android:name=".activity.note.NoteContentActivity" />
-        <activity android:name=".activity.note.ViewPagerActivity" />
-        <activity android:name=".activity.mall.WebViewActivity"></activity>
+            android:launchMode="singleTop"/>
+        <activity android:name=".activity.baseframe.ToastActivity"/>
+        <activity android:name=".activity.baseframe.FrameworkActivity"/>
+        <activity android:name=".activity.mall.MallActivity"/>
+        <activity android:name=".activity.mall.TextViewActivity"/>
+        <activity android:name=".activity.mall.JavaTestActivity"/>
+        <activity android:name=".activity.interview.InterviewContentActivity"/>
+        <activity android:name=".activity.interview.Chapter2Activity"/>
+        <activity android:name=".activity.interview.Chapter13Activity"/>
+        <activity android:name=".activity.idea.RefreshActivity"/>
+        <activity android:name=".activity.idea.IdeaActivity"/>
+        <activity android:name=".activity.bookdevart.EventActivity"/>
+        <activity android:name=".activity.mall.TipHideActivity"/>
+        <activity android:name=".activity.mall.MagicIndicatorActivity"/>
+        <activity android:name=".activity.mall.TabLayoutActivity"/>
+        <activity android:name=".activity.mall.FenLeiActivity"/>
+        <activity android:name=".activity.test.GsonActivity"/>
+        <activity android:name=".activity.bookdevart.Event2Activity"/>
+        <activity android:name=".activity.test.TestListActivity"/>
+        <activity android:name=".activity.test.LeakActivity"/>
+        <activity android:name=".activity.test.Toast2Activity"/>
+        <activity android:name=".activity.mall.LoadingActivity"/>
+        <activity android:name=".activity.mall.HomeRedPointActivity"/>
+        <activity android:name=".activity.note.NoteContentActivity"/>
+        <activity android:name=".activity.note.ViewPagerActivity"/>
+        <activity android:name=".activity.mall.WebViewActivity"/>
+        <activity android:name=".activity.mall.ContactsActivity">
+        </activity>
+        <activity android:name=".activity.bookdevart.ArtWindowActivity">
+        </activity>
     </application>
 
 </manifest>

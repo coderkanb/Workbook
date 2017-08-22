@@ -49,4 +49,8 @@ public class BookDevArtActivity extends BaseActivity {
     public void toEvent2(View view) {
         startActivity(Event2Activity.class);
     }
+
+    public void toWindow(View view) {
+        startActivity(ArtWindowActivity.class);
+    }
 }

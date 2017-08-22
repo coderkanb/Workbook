@@ -17,17 +17,21 @@
             android:orientation="vertical"
             >
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1异常启动旋转屏幕"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="1. 异常启动旋转屏幕"
+                android:background="@android:color/holo_green_dark"
+                android:gravity="center"
                 android:onClick="onScreenChange"
                 />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
                 android:text="1.2启动模式"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="center"
                 android:onClick="onLaunchMode"
                 />
 
@@ -49,6 +53,14 @@
                 android:onClick="toEvent2"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="第8章 理解Window和WindowManager"
+                android:background="@android:color/holo_green_dark"
+                android:gravity="center"
+                android:onClick="toWindow"
+                />
 
         </LinearLayout>
     </ScrollView>
