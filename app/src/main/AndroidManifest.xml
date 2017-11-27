@@ -69,6 +69,8 @@
         </activity>
         <activity android:name=".activity.bookdevart.ArtWindowActivity">
         </activity>
+        <activity android:name=".activity.parttime.PartTimeActivity">
+        </activity>
     </application>
 
 </manifest>

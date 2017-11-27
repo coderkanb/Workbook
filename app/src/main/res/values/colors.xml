@@ -26,4 +26,5 @@
     <color name="app_blue">#0A92DC</color>
 
     <color name="txt_color">#1d1e1e</color>
+    <color name="colorWhite">#ffffff</color>
 </resources>

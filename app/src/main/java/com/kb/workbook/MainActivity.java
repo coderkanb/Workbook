@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.kb.workbook.activity.AnimActivity;
+import com.kb.workbook.activity.parttime.PartTimeActivity;
 import com.kb.workbook.activity.baseframe.FrameworkActivity;
 import com.kb.workbook.activity.bookdevart.BookDevArtActivity;
 import com.kb.workbook.activity.FrescoActivity;
@@ -113,5 +114,9 @@ public class MainActivity extends BaseActivity {
 
     public void toNotePage(View view) {
         startActivity(NoteContentActivity.class);
+    }
+
+    public void toPartTime(View view) {
+        startActivity(PartTimeActivity.class);
     }
 }
