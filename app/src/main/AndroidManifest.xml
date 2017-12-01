@@ -71,6 +71,10 @@
         </activity>
         <activity android:name=".activity.parttime.PartTimeActivity">
         </activity>
+        <activity android:name=".activity.parttime.PartTimeContentActivity">
+        </activity>
+        <activity android:name=".activity.parttime.OptionsActivity">
+        </activity>
     </application>
 
 </manifest>

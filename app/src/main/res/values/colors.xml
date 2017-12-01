@@ -27,4 +27,5 @@
 
     <color name="txt_color">#1d1e1e</color>
     <color name="colorWhite">#ffffff</color>
+    <color name="color_mask">#88888888</color>
 </resources>

@@ -19,6 +19,7 @@ import com.kb.workbook.activity.idea.IdeaActivity;
 import com.kb.workbook.activity.interview.InterviewContentActivity;
 import com.kb.workbook.activity.mall.MallActivity;
 import com.kb.workbook.activity.note.NoteContentActivity;
+import com.kb.workbook.activity.parttime.PartTimeContentActivity;
 import com.kb.workbook.activity.test.TestListActivity;
 
 public class MainActivity extends BaseActivity {
@@ -117,6 +118,6 @@ public class MainActivity extends BaseActivity {
     }
 
     public void toPartTime(View view) {
-        startActivity(PartTimeActivity.class);
+        startActivity(PartTimeContentActivity.class);
     }
 }
